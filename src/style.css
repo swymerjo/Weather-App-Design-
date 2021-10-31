@@ -12,7 +12,9 @@ h4 {
   font-weight: 400;
   font-family: "Indie Flower", cursive;
 }
-
+heading {
+  font-family: "Indie Flower", cursive;
+}
 
 p {
   font-size: 18px;

@@ -1,0 +1,231 @@
+h2 {
+  color: grey;
+  font-family: "Indie Flower", cursive;
+  font-size: 18pt;
+  line-height: 14pt;
+}
+
+h4 {
+  font-size: 14pt;
+  margin: 0 auto;
+  padding: 2px;
+  font-weight: 400;
+  font-family: "Indie Flower", cursive;
+}
+
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 0 10px;
+  font-family: "Indie Flower", cursive;
+}
+
+span h2 {
+  display: inline;
+}
+small {
+  display: inline;
+  font-family: "Indie Flower", cursive;
+  margin-left: 10%;
+  margin-top: 0;
+  padding: 2px 4px;
+  font-weight: bolder;
+  border: 2px solid #ffb900;
+  border-radius: 4px;
+}
+li {
+  color: grey;
+  font-family: "Indie Flower", cursive;
+  font-size: 14pt;
+  list-style: none;
+  line-height: 25pt;
+}
+
+.container {
+  max-width: 50%;
+  margin-top: 30px;
+  padding-left: 2px;
+  padding-right: 0;
+  border: 2px solid #dbdce3;
+  background: rgb(253, 255, 136);
+  border-radius: 4px;
+}
+.current-stats {
+  margin-left: 5%;
+}
+
+#temperature {
+  display: inline;
+  font-family: "Indie Flower", cursive;
+  font-weight: bolder;
+  font-size: 40pt;
+  line-height: 1;
+  position: relative;
+  left: -5px;
+  bottom: -12px;
+}
+#weather-icon {
+  position: relative;
+}
+
+#current-date #current-time {
+  font-size: 17pt;
+  margin: 0 auto;
+  padding: 2px;
+  font-weight: bolder;
+  font-family: "Indie Flower", cursive;
+}
+
+#search-text-input {
+  border: 2px solid turquoise;
+  color: grey;
+  margin-top: 10px;
+  padding: 5px;
+  padding-right: 30%;
+  border-radius: 4px;
+  background: lightblue;
+  margin-left: 18px;
+  font-family: "Indie Flower", cursive;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#search-button {
+  border: 2px solid turquoise;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background: #ffb900;
+  font-family: "Indie Flower", cursive;
+  font-size: 14pt;
+  font-weight: bold;
+}
+#search-button:hover {
+  background: silver;
+  color: white;
+}
+
+#current-location-button {
+  border: 2px solid #ffb900;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 4px;
+  background: silver;
+  font-family: "Indie Flower", cursive;
+  font-size: 14pt;
+  font-weight: bold;
+}
+
+#current-location-button:hover {
+  background: #ffb900;
+  color: white;
+}
+
+#weather-specs {
+  padding-top: 18%;
+  margin-left: 0;
+  position: relative;
+  left: 40pt;
+}
+#small-sun-image {
+  display: block;
+}
+
+.days {
+  border: 2px solid turquoise;
+  border-radius: 30pt 30pt;
+  padding: 2px;
+  text-align: center;
+  margin: 8px;
+  background: lightblue;
+}
+.temp-high {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 14pt;
+  margin: 0 auto;
+  padding: 2px;
+  font-weight: 400;
+  font-family: "Indie Flower", cursive;
+}
+.temp-low {
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 14pt;
+  margin: 0 auto;
+  padding: 2px;
+  font-weight: 400;
+  font-family: "Indie Flower", cursive;
+  opacity: 60%;
+}
+.footer {
+  text-align: center;
+}
+.my-name {
+  color: #ffb900;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.my-name:hover {
+  font-weight: bold;
+  color: turquoise;
+}
+
+.open-source-link {
+  color: grey;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.open-source-link:hover {
+  font-weight: bold;
+  color: blue;
+}
+
+.row {
+  margin-left: 4px;
+}
+
+.suns {
+  font-size: 14pt;
+}
+
+#celsius {
+  font-size: 12pt;
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+#fahrenheit {
+  font-size: 12pt;
+  text-decoration: none;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+}
+
+#weather-form {
+  margin-top: 4px;
+}
+
+.weather-units {
+  position: relative;
+  top: -12px;
+  left: -5px;
+}
+#weather-description {
+  font-size: 14pt;
+}
+#season-icon {
+  padding-top: 13%;
+  font-size: 50pt;
+}
+.footer {
+  margin: 0;
+  padding: 4px;
+}

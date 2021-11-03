@@ -226,7 +226,7 @@ li {
   margin: 0;
   padding: 4px;
 }
-@media (max-width:480px) {
+@media (max-width:580px) {
 li, #humidity, #season-icon, #weather-specs, .temp-low {
    display: none;
  }

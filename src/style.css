@@ -265,9 +265,6 @@ li, #humidity, #season-icon, #weather-specs, .temp-low {
 
 @media (min-width:750px) {
  
-  .container {
-    max-width: 80%;
-  }
  
   #season-icon {
     display: none;

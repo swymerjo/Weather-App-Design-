@@ -226,7 +226,7 @@ li {
   margin: 0;
   padding: 4px;
 }
-@media (max-width:580px) {
+@media (max-width:750px) {
 li, #humidity, #season-icon, #weather-specs, .temp-low {
    display: none;
  }
@@ -265,8 +265,10 @@ li, #humidity, #season-icon, #weather-specs, .temp-low {
 
 @media (min-width:750px) {
  
- 
   #season-icon {
     display: none;
+  }
+  #search-text-input {
+    padding-right: 110px;
   }
  }

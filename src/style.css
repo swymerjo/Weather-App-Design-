@@ -134,9 +134,7 @@ li {
   position: relative;
   left: 40pt;
 }
-#small-sun-image {
-  display: block;
-}
+
 
 .days {
   border: 2px solid turquoise;
@@ -194,9 +192,6 @@ li {
   margin-left: 4px;
 }
 
-.suns {
-  font-size: 14pt;
-}
 
 #celsius {
   font-size: 12pt;
@@ -231,3 +226,50 @@ li {
   margin: 0;
   padding: 4px;
 }
+@media (max-width:480px) {
+li, #humidity, #season-icon, #weather-specs, .temp-low {
+   display: none;
+ }
+.current-stats {
+   padding: 0;
+   margin: 0;
+ }
+ .container {
+   max-width: 90%;
+ }
+ .temp-high {
+   padding: 0;
+ }
+.days {
+  margin: 2px;
+}
+#weather-icon {
+  left: -15px;
+}
+#search-text-input {
+  padding-right: 110px;
+}
+
+ #search-button, #current-location-button {
+   font-size: 12pt;
+   display: inline;
+ }
+ #search-button {
+  margin-left: 15px;
+ }
+ #temperature {
+   font-size: 30pt;
+ }
+ 
+}
+
+@media (min-width:750px) {
+ 
+  .container {
+    max-width: 80%;
+  }
+ 
+  #season-icon {
+    display: none;
+  }
+ }

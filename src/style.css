@@ -243,11 +243,13 @@ li, #humidity, #season-icon, #weather-specs, .temp-low {
 .days {
   margin: 2px;
 }
+
 #weather-icon {
   left: -15px;
 }
 #search-text-input {
   padding-right: 110px;
+  display: flex;
 }
 
  #search-button, #current-location-button {
@@ -260,7 +262,7 @@ li, #humidity, #season-icon, #weather-specs, .temp-low {
  #temperature {
    font-size: 30pt;
  }
- 
+
 }
 
 @media (min-width:750px) {
@@ -270,5 +272,7 @@ li, #humidity, #season-icon, #weather-specs, .temp-low {
   }
   #search-text-input {
     padding-right: 110px;
+
   }
+  
  }
